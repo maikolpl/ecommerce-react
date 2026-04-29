@@ -1,0 +1,115 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ROOT */
+#root {
+  width: 100%;
+}
+
+/* BODY BASE */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* LIGHT MODE */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+  --navbar-bg: #ffffff;
+  --navbar-text: #000000;
+  --search-bg: #ffffff;
+  --search-border: #dddddd;
+  --search-text: #000000;
+  --product-bg: #ddd;
+  --product-text: #000;
+  --product-img-bg: #fff;
+  --product-shadow: rgba(0,0,0,0.1);
+  --cart-bg:#ddd;
+  --cart-text: #000;
+  --cart-border: #ccc;
+  --cart-button: #ADD8E6;
+  --menu-bg:#ddd;
+  --menu-text:#000;
+  --menu-shadow:rgba(0,0,0,0.3);
+  --menu-close: #fff;
+  --detail-text:#000000;
+  --detail-bg: #ffffff;
+  --detail-shadow: rgba(0, 0, 0, 0.2);
+  --detail-close: #ADD8E6;
+  --checkout-button:rgba(0,0,0,0.2)
+
+}
+
+/* DARK MODE */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+  --navbar-bg: #1e1e1e;
+  --navbar-text: #ffffff;
+  --search-bg: #2a2a2a;
+  --search-border: #444444;
+  --search-text: #ffffff;
+    --product-bg: #1e1e1e;
+  --product-text: #fff;
+  --product-img-bg: #2a2a2a;
+  --product-shadow: rgba(0,0,0,0.6);
+  --cart-bg:#1e1e1e;
+  --cart-text: #fff;
+  --cart-border: #333;
+  --cart-button: #6E6563;
+  --menu-bg:#1e1e1e;
+  --menu-text:#fff;
+  ---menu-shadow: rgba(0,0,0,0.6);
+  --menu-close: #6E6563;
+  --detail-text:#ffffff;
+  --detail-bg: #1e1e1e;
+  --detail-shadow:rgba(0,0,0,0.6);
+  --detail-close: #6E6563;
+  --checkout-button:rgba(255,255,255,0.4)
+
+}
+
+/* BOTONES BASE */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* LISTAS */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.overlay-transition {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 4000;
+  backdrop-filter: blur(0px);  
+  animation: cinematicFadeIn 0.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+@keyframes cinematicFadeIn {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+  }
+  to {
+    opacity: 1;
+    backdrop-filter: blur(12px);
+  }
+}
+

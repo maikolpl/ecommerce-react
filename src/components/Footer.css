@@ -1,0 +1,24 @@
+.footer {
+position: fixed;
+left: 16px;
+bottom: 16px;
+text-align: left;
+padding: 8px 24px;
+border-radius: 32px;
+opacity: .95;
+backdrop-filter: blur(8px);
+}
+
+
+
+.footer img {
+  width: 40px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+}
+
+.footer img:hover{
+  box-shadow: 0 0 20px 0 green;
+}

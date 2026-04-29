@@ -1,0 +1,154 @@
+.cart {
+position: fixed;
+right: 0;
+top: 70px; 
+width: 320px;
+height: calc(100vh - 70px);
+background:var(--cart-bg); 
+color: var(--cart-text);
+z-index: 2000;
+padding: 20px;
+box-shadow: -5px 0 20px rgba(0,0,0,0.3);
+box-sizing: border-box;
+overflow-y: auto;
+}
+
+.cart-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid var(--cart-border);
+padding-bottom: 15px;
+margin-bottom: 15px;
+}
+
+.cart-header h2 {
+margin: 0;
+font-size: 1.2rem;
+}
+
+.cart-header button {
+background: var(--cart-button);
+border: none;
+color: var(--cart-text);
+font-size: 1.5rem;
+cursor: pointer;
+}
+
+.cart ul {
+list-style: none;
+padding: 0;
+}
+
+.cart li {
+border-bottom: 1px solid var(--cart-border);
+padding: 15px 0;
+}
+
+.checkout-button{
+width: 100%; 
+padding: 18px 0;
+border: none;
+border-radius: 10px;
+background-color: var(--cart-button);
+color: var(--cart-text);
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+cursor: pointer;
+transition: all 0.3s ease;
+display: block;
+}
+
+.checkout-button:hover {
+letter-spacing: 3px;       
+box-shadow: 0 4px 15px var(--checkout-button); 
+}
+.checkout-button:active {
+transform: scale(0.98);    
+}
+.cart img {
+width: 100%;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.cart footer {
+display: flex;
+gap: 10px;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+}
+
+.cart footer button {
+background: var(--cart-button);
+color: var(--cart-text);
+border: none;
+padding: 5px 12px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.cart footer button:hover {
+background: var(--cart-button);
+}
+
+
+.cart > button {
+width: 100%;
+margin-top: 20px;
+padding: 10px;
+background:var(--cart-button);
+border: none;
+border-radius: 4px;
+color: var(--cart-text);
+cursor: pointer;
+}
+
+
+/* Ajustes para el carrito en celulares */
+@media (max-width: 780px) {
+.cart {
+width: 280px; 
+padding: 15px;
+top: 200px; 
+height: calc(100vh - 200px);
+}
+
+.cart-header h2 {
+font-size: 1rem; 
+}
+
+
+.cart img {
+width: 80px; 
+height: 80px;
+object-fit: cover; 
+margin-bottom: 0;
+margin-right: 15px;
+}
+
+.cart li {
+display: flex;
+align-items: center;
+padding: 10px 0;
+}
+
+.cart li div {
+flex: 1; 
+font-size: 0.9rem;
+}
+
+.checkout-button {
+padding: 12px 0; 
+font-size: 12px;
+letter-spacing: 1px;
+}
+
+.cart footer {
+margin-top: 5px;
+font-size: 0.85rem;
+}
+}
