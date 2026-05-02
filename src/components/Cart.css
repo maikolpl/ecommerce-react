@@ -76,20 +76,25 @@ margin-bottom: 10px;
 
 .cart footer {
 display: flex;
-gap: 10px;
+gap: 3px;
 justify-content: space-between;
 align-items: center;
 margin-top: 10px;
 }
 
-.cart footer button {
-background: var(--cart-button);
+.cart footer{
+background-color: var(--cart-button);
+gap: 10px;
 color: var(--cart-text);
 border: none;
 padding: 5px 12px;
 border-radius: 4px;
 cursor: pointer;
 }
+.cart footer span{
+    font-size: 15px;
+}
+
 
 .cart footer button:hover {
 background: var(--cart-button);

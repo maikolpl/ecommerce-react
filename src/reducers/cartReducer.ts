@@ -22,8 +22,24 @@ import type { Product } from "../types/products"
             ...state,
             {...product, quantity: 1}
         ]
-
             }
+            case 'DECREMENT_QUANTITY':{
+            const product = action.payload
+            if(!product) return state
+            const productIndex = state.findIndex(item => item.id === product.id)
+
+            if(productIndex >= 0){
+                const newState = structuredClone(state)
+
+                if(newState[productIndex].quantity > 1){
+                    newState[productIndex].quantity -=1 
+                    return newState
+                }
+                return state.filter(item => item.id !== product.id)
+            }
+            return state
+
+        } 
             case 'REMOVE_FROM_CART': {
                 const product = action.payload
                 if(!product) return state

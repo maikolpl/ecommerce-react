@@ -6,6 +6,7 @@ import type { Product } from "../types/products";
 type Props ={
     product: Product & {quantity: number}
     addToCart: (product:Product)=> void
+    decrementQuantity: (product:Product) => void
 }
 
 type CartProps ={
@@ -13,7 +14,7 @@ type CartProps ={
 }
 
 
-function CartItem ({product,addToCart}: Props){
+function CartItem ({product,addToCart,decrementQuantity}: Props){
     return(
         <li>
                 <img src={product.images[0]} alt={product.title} />
@@ -23,17 +24,17 @@ function CartItem ({product,addToCart}: Props){
 
                 <footer>
                     <small>
-                        Qty:{product.quantity}
+                        cantidad: {product.quantity}
                     </small>
-                    <button onClick={()=>addToCart(product)}>+</button>
+                    <span onClick={()=>addToCart(product)}>+</span>
+                    <span onClick={()=> decrementQuantity(product)}> −  </span>
                 </footer>
         </li>
 
     )
- 
 }
 export function Cart ({onClose}: CartProps){
-    const {cart, clearCart, addToCart} = useCart()
+    const {cart, clearCart, addToCart,decrementQuantity} = useCart()
     const total = cart.reduce((acc: number,item) => {
         return acc + item.price * item.quantity
     },0)
@@ -53,6 +54,7 @@ export function Cart ({onClose}: CartProps){
       key={product.id}
       product={product}
       addToCart={addToCart}
+      decrementQuantity={decrementQuantity}
     />
             ))}
             <button className="checkout-button">

@@ -14,6 +14,9 @@ export function CartProvider ({children}: {children: React.ReactNode}){
     const addToCart = (product:Product)=>{
         dispatch({type:'ADD_TO_CART', payload: product})
     }
+    const decrementQuantity = (product:Product)=>{
+        dispatch({type: 'DECREMENT_QUANTITY', payload: product})
+    }
 
     const removeFromCart = (product:Product) =>{
         dispatch({type:'REMOVE_FROM_CART',payload:product})
@@ -26,7 +29,7 @@ export function CartProvider ({children}: {children: React.ReactNode}){
     
 
     return(
-        <CartContext.Provider value={{cart,addToCart,clearCart,removeFromCart}}>
+        <CartContext.Provider value={{cart,addToCart,clearCart,removeFromCart,decrementQuantity}}>
             {children}
         </CartContext.Provider>
     )
