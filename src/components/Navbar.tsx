@@ -1,7 +1,7 @@
 import { useId, useState } from "react";
 import './Navbar.css'
 import { useSearchTitle } from "../hooks/SearchTitleContext";
-import lupa from '../icons/lupa.svg'
+import lupa from '../icons/lupa .png'
 import menu from '../icons/menu.svg'
 import logo from '../logos/logo.png'
 import usuario from '../icons/usuario.svg'
