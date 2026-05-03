@@ -3,7 +3,7 @@ import './Navbar.css'
 import { useSearchTitle } from "../hooks/SearchTitleContext";
 import lupa from '../icons/lupa .png'
 import menu from '../icons/menu.svg'
-import logo from '../logos/logo.png'
+import logo from '../logos/logo1.png'
 import usuario from '../icons/usuario.svg'
 import bolso from '../icons/bolso.svg'
 import { Cart } from "./Cart";

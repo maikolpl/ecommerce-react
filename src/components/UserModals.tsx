@@ -1,7 +1,6 @@
 import './UserModals.css'
 import candado from '../icons/candado.png'
-import logo from '../logos/logo.png'
-import buzo from '../logos/logoSirve.png'
+import logo from '../logos/logo1.png'
 import email from '../icons/usuario-2.svg'
 
 
@@ -21,7 +20,7 @@ export function UserModals ({onClose}: Props){
 
 
     <div className="usuario-izquierda">
-    <img src={buzo} alt="chaqueta" />
+    <img src={logo} alt="logo" />
     <div className="botones">
     <button className="crear">CREAR USUARIO</button>
     </div>
