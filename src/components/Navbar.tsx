@@ -5,7 +5,7 @@ import lupa from '../icons/lupa .png'
 import menu from '../icons/menu.svg'
 import logo from '../logos/logo1.png'
 import usuario from '../icons/usuario.svg'
-import bolso from '../icons/bolso.svg'
+import bolso from '../icons/modo clarito.png'
 import { Cart } from "./Cart";
 import { MenuPanel } from "./MenuPanel";
 import { useTheme } from "../hooks/UseTheme";
