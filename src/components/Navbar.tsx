@@ -4,7 +4,7 @@ import { useSearchTitle } from "../hooks/SearchTitleContext";
 import lupa from '../icons/lupa .png'
 import menu from '../icons/menu.svg'
 import logo from '../logos/logo1.png'
-import usuario from '../icons/usuario.svg'
+import usuario from '../icons/icono persona claro.png'
 import bolso from '../icons/modo clarito.png'
 import { Cart } from "./Cart";
 import { MenuPanel } from "./MenuPanel";
