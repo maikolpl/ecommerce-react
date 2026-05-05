@@ -28,14 +28,6 @@ Aplicación de comercio electrónico desarrollada con React, que incluye carrito
 - Vite
 - CSS
 
----
-
-## 📸 Preview
-
-*(Aquí luego pondrás imágenes de tu app)*
-
----
-
 ## ⚙️ Installation
 
 ```bash
