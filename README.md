@@ -8,7 +8,7 @@ Aplicación de comercio electrónico desarrollada con React, que incluye carrito
 
 ##  Demo
 
-👉 https://ecommerce-react-lj8icgkm6-maikolpls-projects.vercel.app/
+👉https://ecommerce-react-two-fawn.vercel.app/
 
 ## 🚀 Features
 
