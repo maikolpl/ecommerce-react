@@ -1,0 +1,367 @@
+.productEdit{
+    padding-top: 20px;
+}
+
+.productEditTitleContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productEditTitle{
+    color: black;
+    font-size: 40px;
+}
+
+.productEditTitleIcon{
+    font-size: 40px !important;
+    padding-right:30px;
+    color: rgb(83, 83, 230) ;
+    margin-left: 20px;
+}
+
+.backProductEdit{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(153, 153, 153) ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.linkProductList{
+    text-decoration: none;
+}
+
+.productEditContainer{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.productPreview{
+    flex: 1;
+    margin-left: 25px;
+}
+
+.productEditPreviewTopContainer{
+    box-shadow: 1px 3px 15px 8px lightgray;
+    border-radius: 8px;
+    
+}
+
+.productPreviewTopImg{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.productPreviewImg{
+    width: 300px;
+    padding-top: 30px;
+    height: auto;
+    border-radius:8px;
+}
+
+.productEditInfoTop{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    gap: 10px;
+}
+
+.productEditName{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.productEditInfoState{
+    display: flex;
+    align-items: center;
+}
+
+.editState{
+    font-size: 18px;
+    padding: 5px;
+    color: green;
+    background-color:rgb(165, 225, 165) ;
+    border-radius: 8px;
+}
+
+.productEditId{
+    font-size: 18px;
+    padding-left: 30px;
+    color: rgb(75, 74, 74) ;
+}
+
+.productEditPrice{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(83, 83, 230);
+}
+
+.productEditCategoriContainer{
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #BBC3FC;
+    border-radius: 8px;
+}
+
+.productEditiconCategori{
+    color: #051470 ;
+    padding: 0 10px;
+}
+
+.productEditCategori{
+    font-size: 18px;
+    color: #051470;
+}
+
+.productEditStockContainer{
+    display: flex;
+    align-items: center;
+}
+
+.productEditStock{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.productEditUnits{
+    padding: 5px;
+    font-size: 18px;
+    color: #051470;
+    background-color: #BBC3FC;
+    border-radius: 5px;
+}
+
+.productPreviewEditMid{
+    margin-top: 10px;
+    gap: 30px;
+    box-shadow: 1px 3px 15px 8px lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.productEditDetailsContainer{
+    display: flex;
+    align-items: center;
+    color: rgb(125, 125, 125);
+    font-size: 18px;
+    font-weight: 18px;
+}
+
+.productEditDetailsContainer:hover{
+    color:#051470;
+    background-color: #BBC3FC;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.productEditIconDetails{
+    padding-right: 10px;
+}
+
+.productPreviewEditBottom{
+    margin-top: 10px;
+    gap: 30px;
+    box-shadow: 1px 3px 15px 8px lightgray;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.productEditFecha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-P{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-prop{
+    color: rgb(147, 147, 147);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.productEditForm{
+    flex: 2;
+    margin: 0   ;
+}
+
+.productEditFormContainer{
+    box-shadow: 1px 3px 15px 8px lightgray;
+    border-radius: 8px;
+}
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.productEditTitleInfoIcon{
+    font-size: 30px !important;
+    color: blue;
+    padding: 0px 20px;
+    
+}
+
+.productEditFormTitle{
+    font-size: 25px;
+    color: black;
+
+}
+
+.productEditFormBasicInfo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.productEditColumnContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.productEditColumnContainer label{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.productEditInput{
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.productEditSelectState{
+    color: rgb(150, 149, 149);
+    background-color: white;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.productEditInventoryContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.productEditInventoryContainer label{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.productEditDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.productEditDescriptionContainer label{
+    font-weight: 600;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.productEditDescription{
+    width: 95%;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.productEditCaractersContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.productEditCaractersContainer label{
+    font-weight: 600;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.buttonCancel{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    font-size: 16px;
+    border: none;   
+    background-color: rgb(153, 153, 153) ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productCloseIcon{
+    padding-right: 10px;
+}
+
+.buttonUpdate{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: blue ;
+    border-radius: 5px; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productUpdateIcon{
+    padding-right: 10px;
+}

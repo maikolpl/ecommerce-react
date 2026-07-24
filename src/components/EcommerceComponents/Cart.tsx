@@ -1,7 +1,7 @@
 import { ClearCartIcon } from "./Icons";
 import './Cart.css'
-import { useCart } from "../hooks/UseCart";
-import type { Product } from "../types/products";
+import { useCart } from "../../hooks/UseCart";
+import type { Product } from "../../types/products";
 
 type Props ={
     product: Product & {quantity: number}

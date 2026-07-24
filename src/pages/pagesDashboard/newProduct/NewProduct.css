@@ -1,0 +1,329 @@
+.newProduct{
+    margin: 20px;
+    padding: 20px;
+}
+
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.newProductContainerTitle{
+    display: flex;
+    align-items: center;
+}
+
+.iconContainer{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.newProductTitle{
+    color: black;
+    font-size: 40px;
+}
+
+.buttonsContainer{
+    gap: 20px;
+}
+
+.buttonCancelNewProduct{
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    border: 2px solid lightgray;   
+    background-color: white ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconCloseNewProduct{
+    margin-right: 10px;
+}
+
+.addNewProduct{
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconAddNewProduct{
+    padding-right: 10px;
+}
+
+.midContainer{
+    display: flex;
+    box-shadow: 1px 3px 15px 8px lightgray;
+    border-radius: 8px;
+}
+
+.infoContainer{
+    flex: 3;
+    margin: 20px;
+
+}
+
+.midContainerTitle{
+    display: flex;
+    align-items: center;
+    
+}
+
+.formItemsInfoContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.newProductItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.newProductItem label{
+    font-weight: 600;
+    font-size: medium;
+}
+.newProductInput{
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newProductSelect{
+    color: rgb(150, 149, 149);
+    background-color: white;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formInventoryContainer{
+    margin: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid lightgray;
+}
+
+.inventoryContainerTitle{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.iconInventory{
+    color: blue;
+    padding-right: 10px;
+}
+
+.inventoryTitle{
+    font-size: 18px;
+    color: black;
+}
+
+.formItemsInventory{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.descriptionContainerTitle{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.iconDescriptionNewProduct{
+    color: blue;
+    padding-right: 10px;
+}
+
+.descriptionTitle{
+    font-size: 18px;
+    color: black;
+}
+
+.formItemsDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.formItemsDescription label{
+    font-weight: 600;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.newProductNotes{
+    width: 95%;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.rightContainer{
+    flex: 2;
+    box-shadow: 1px 3px 15px 8px lightgray;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 20px;
+} 
+
+.previewTitleContainer{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: blue;
+}
+
+.titlePreview{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.iconTitlePreview{
+    padding-right: 10px;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(245, 242, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image{
+    display: none;
+}
+
+.uploadButton{
+    padding: 10px 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.previewForm{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.previewItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.labelPreview{
+    font-size: 14px;
+    color: black;
+}
+
+.iconPreview{
+    font-size: 18px !important;
+    color: gray;
+    padding-right: 10px;
+}
+
+.inputPreview{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    border: none;
+}
+
+.inputPreviewState{
+    border:none;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #FFF3E6;
+    border-radius: 8px;
+}
+
+.inputPreviewState::placeholder{
+    font-weight: bold;
+    color: #FF8200;
+    opacity: 1;
+}
+
+.inputPreviewPrice{
+    border:none;
+    font-size: 14px;
+}
+
+.inputPreviewPrice::placeholder{
+    font-weight: bold;
+    color: blue;
+    opacity: 1;
+}
+
+.inputPreviewStock{
+    border:none;
+    font-size: 14px;
+}
+
+.inputPreviewStock::placeholder{
+    font-weight: bold;
+    color: blue;
+    opacity: 1;
+}
+
+.newProductBottom{
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 15px 8px lightgray;
+}
+
+.titleContainerBottom{
+    display: flex;
+    align-items: center;
+    color: blue;
+    margin-top: 20px;
+}
+
+.titleIconBottom{
+    padding-right: 10px;
+}
+
+.formBottom{
+    display: flex;
+    padding: 20px;
+}
+
+.formBottom label{
+    color: black;
+    
+}

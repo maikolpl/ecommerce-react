@@ -1,0 +1,37 @@
+.pieChart{
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 15px 8px lightgray;
+}
+.pieChart:hover{
+    letter-spacing: 2;
+    box-shadow: 0 4px 15px rgb(123, 123, 123);;
+}
+
+.pieChart:active{
+     transform: scale(0.98);
+}
+.pieChartInfo{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pieChartTitle{
+    font-size: 14px;
+    margin: 0;
+}
+.pieChartOptions{
+    width: 110px;
+    height: 35px;
+    padding: 5px 10px;
+    border: none;
+    color: rgb(113, 112, 112);
+    background-color:white;
+    border: 1px solid rgb(113, 112, 112);
+    border-radius: 8px;
+    cursor: pointer;
+    
+}

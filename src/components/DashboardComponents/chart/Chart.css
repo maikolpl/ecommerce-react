@@ -1,0 +1,14 @@
+.chart{
+    display: flex;
+    gap:20px;
+}
+
+.salesChart{
+   
+    flex: 3;
+}
+
+.pieChartCustom{
+    flex:1
+}
+

@@ -1,0 +1,102 @@
+.widgetSm{
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 1px 3px 15px 8px lightgray;
+    font-family: system-ui, -apple-system,sans-serif;
+}
+
+.widgetSmTitle{
+    font-size: 18px;
+    font-weight: 700;
+    color: #212529;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.widgetSmList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.tabla-fila{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr 1.2fr 1.2fr 0.3fr;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid #edf2f7;
+    transition: background-color 0.2 ease;
+}
+.tabla-header{
+    color: #a0aec0;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+.orden{
+    color:#675EC4;
+    font-weight: 600;
+}
+
+.cliente{
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.fecha{
+    color: #718096;
+
+}
+
+.total{
+    color: #2d3748;
+    font-weight: 600;
+}
+
+.article.tabla-fila:hover{
+    background-color: #f7fafc;
+    cursor: pointer;
+}
+
+.badge{
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.badge:hover{
+    letter-spacing: 2;
+    box-shadow: 0 4px 15px lightgray;
+}
+
+.badge:active{
+    transform: scale(0.98);
+}
+
+.completado{
+    background-color: #e6f7ed;
+    color: #26a269;
+}
+
+.proceso{
+    background-color: #e8f0fe;
+    color: #3b71ca;
+}
+
+.pendiente{
+    background-color: #ffebee;
+    color: #ef6c00;
+}
+
+.cancelado{
+    background-color: #ffebee;
+    color: #c62828;
+}
+

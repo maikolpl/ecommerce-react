@@ -1,7 +1,7 @@
 import './UserModals.css'
-import candado from '../icons/candado.png'
-import logo from '../logos/logo1.png'
-import email from '../icons/usuario-2.svg'
+import candado from '../../icons/candado.png'
+import logo from '../../logos/logo1.png'
+import email from '../../icons/usuario-2.svg'
 
 
 type Props = {

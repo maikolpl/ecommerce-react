@@ -1,5 +1,5 @@
     import './Footer.css'
-    import whatsap from '../icons/WhatsApp.svg.png'
+    import whatsap from '../../icons/WhatsApp.svg.png'
     
     export function Footer(){
         return( 

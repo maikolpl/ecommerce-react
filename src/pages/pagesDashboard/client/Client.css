@@ -1,0 +1,211 @@
+.client{
+    flex: 4;
+    padding: 20px;
+}
+
+.clientTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    box-shadow: 1px 3px 15px 8px lightgray;
+   
+}
+
+.clientTitle{
+    color: black;
+    font-size: 50px;
+}
+
+.clientAddButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    background-color: #1C12E3;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.linkClient{
+    text-decoration: none;
+}
+
+.clientContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.clientShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow:1px 3px 15px 8px lightgray;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+
+
+.clientShowTop{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    border-bottom: 2px solid lightgray;
+}
+
+.iconTitle{
+    font-size: 50px !important;
+    color: black;
+    margin-left:20px ;
+    
+}
+
+.clientIcon{
+    font-size: 60px !important;
+    color: #665ff4 ;
+}
+.clientShowName{
+    font-size: 40px ;
+}
+.idIcon{
+    font-size: 30px !important;
+    color: #665ff4 ;
+    background-color: rgb(227, 226, 226);
+    border-radius: 5px;
+}
+
+.clientId{
+    font-size: 20px;
+}
+
+.EmailIcon{
+    font-size: 30px !important;
+    padding: 5px;
+    color: #665ff4 ;
+    background-color: rgb(227, 226, 226);
+    border-radius: 5px;
+}
+
+.clientEmail{
+    font-size: 20px;
+}
+
+.companyIcon{
+    font-size: 30px !important;
+    padding: 5px;
+    color: #665ff4 ;
+    background-color: rgb(227, 226, 226);
+    border-radius: 5px;
+}
+
+.clientCompany{
+    font-size: 20px;
+}
+
+.pageIcon{
+    font-size: 30px !important;
+    padding: 5px;
+    color: #665ff4 ;
+    background-color: rgb(227, 226, 226);
+    border-radius: 5px;
+}
+
+.clientPage{
+    font-size: 20px;
+}
+
+.personState{
+    font-size: 30px !important;
+    padding: 5px;
+    color: #665ff4 ;
+    background-color: rgb(227, 226, 226);
+    border-radius: 5px;
+}
+
+.clientState{
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(200, 244, 200);
+    border-radius: 10px;
+}
+
+.clientInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    border-bottom: 2px solid lightgray;
+}
+
+.clientUpdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow:1px 3px 15px 8px lightgray;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.clientUpdateForm{
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.clientUpdateItem{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.clientUpdateItem label{
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+.clientUpdateItem input{
+    width: 90%;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius:8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.clientEditSelect{
+    width: 95%;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.buttonKeep{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: #665ff4;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+

@@ -1,0 +1,34 @@
+.clientList{
+    flex: 4;
+    padding: 20px;
+}
+
+.clientEditButton{
+    border: none;
+    border-radius: 8px;
+    padding: 5px 12px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgb(123, 123, 123);
+}
+
+.clientEditButton:hover{
+    letter-spacing: 2;
+    opacity: 0.9;
+}
+
+.clientEditButton:active{
+    transform: scale(0.98)
+}
+
+.clientActions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clientIconEdit{
+    cursor: pointer;
+}

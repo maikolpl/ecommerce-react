@@ -1,6 +1,6 @@
-import { useCart } from "../hooks/UseCart";
-import type { Product } from "../types/products";
-import { AddToCartIcon, RemoveFromCartIcon } from './Icons'
+import { useCart } from "../../hooks/UseCart";
+import type { Product } from "../../types/products";
+import { AddToCartIcon, RemoveFromCartIcon } from '../EcommerceComponents/Icons'
 import './ProductDetail.css'
 
 type Props = {

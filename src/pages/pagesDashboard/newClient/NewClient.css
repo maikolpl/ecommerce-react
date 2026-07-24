@@ -1,0 +1,112 @@
+.newClient{
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px 8px lightgray;
+}
+.newClientTitleContainer{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.newClientTitle{
+    color: black;
+    font-size: 40px;
+    
+}
+
+.iconNewClientTitle{
+    font-size: 60px !important;
+    padding: 8px;
+    color: black;
+    margin-left: 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.buttonBack{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.linkBack{
+    text-decoration: none;
+}
+
+
+.newClientForm{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.newClientUpdateItem{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newClientUpdateItem label{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.newClientUpdateItem input{
+    width: 95%;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newClientEditSelect{
+    width: 97%;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+}
+
+
+.newClientNotes{
+    width: 95%;
+    min-height: 120px;
+    padding: 14px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+.newClientbuttonKeep{
+    width: 97%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white ;
+    background-color: #665ff4 ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

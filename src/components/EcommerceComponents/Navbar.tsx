@@ -1,14 +1,14 @@
 import { useId, useState } from "react";
 import './Navbar.css'
-import { useSearchTitle } from "../hooks/SearchTitleContext";
-import lupa from '../icons/lupa .png'
-import menu from '../icons/icono rallas claro.png'
-import logo from '../logos/logo1.png'
-import usuario from '../icons/icono persona claro.png'
-import bolso from '../icons/modo clarito.png'
+import { useSearchTitle } from "../../hooks/SearchTitleContext";
+import lupa from '../../icons/lupa .png'
+import menu from '../../icons/icono rallas claro.png'
+import logo from '../../logos/logo1.png'
+import usuario from '../../icons/icono persona claro.png'
+import bolso from '../../icons/modo clarito.png'
 import { Cart } from "./Cart";
 import { MenuPanel } from "./MenuPanel";
-import { useTheme } from "../hooks/UseTheme";
+import { useTheme } from "../../hooks/UseTheme";
 import { UserModals } from "./UserModals";
 
 
