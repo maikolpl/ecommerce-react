@@ -12,6 +12,7 @@ import { rowsProducts } from "../../mocks/data/ProductsRow";
 import { Product } from "./product/Product";
 import { ProductEdit } from "./productEdit/ProductEdit";
 import { NewProduct } from "./newProduct/NewProduct";
+import { Orders } from "./orders/Orders";
 
 
 export function HomeDashboard(){
@@ -32,6 +33,7 @@ export function HomeDashboard(){
       <Route path="/product/:productId" element={<Product/>}/>
       <Route path="/productEdit/:productId" element={<ProductEdit/>} />
       <Route path="/newProduct" element={<NewProduct/>} />
+      <Route path="/orders" element={<Orders/>} />
       </Routes>
 
       </main>

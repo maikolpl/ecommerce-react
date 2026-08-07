@@ -59,11 +59,13 @@
                     </li>
                     </NavLink>
                     
-
+                    <NavLink to='/dashboard/orders' className='sidebarLink'>
                     <li className="sidebarListItem">
                         <ForwardToInboxIcon className='icon'/>
                         Ordenes
                     </li>
+                    </NavLink>
+                    
 
                     <li className="sidebarListItem">
                         <DescriptionIcon className='icon'/>

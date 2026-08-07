@@ -1,0 +1,156 @@
+.containerInfoTitle{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+}
+
+.infoIcon{
+    margin-right: 10px;
+    color: rgb(113, 112, 112) ;
+    font-size: 40px !important;
+    color: black;
+}
+
+.infoOrdersTitle{
+    font-size: 40px;
+}
+
+.descriptionPage{
+    font-size: 14px;
+    color:rgb(154, 154, 154);
+    margin: 0px 10px 10px 10px
+
+}
+.infoOrders{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.infoOrdersItem{
+    flex: 1;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius:20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 15px 8px lightgray;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconContainerItem{
+    width: 80px;
+    height:  80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEC4F3;
+    color: #8B2DD2;
+    border-radius: 50%;
+
+}
+
+.infoOrdersContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoOrdersItem:hover{
+    letter-spacing: 2px;
+    box-shadow: 0 4px 15px rgb(123, 123, 123);
+}
+
+.infoOrdersItem:active{
+    transform: scale(0.98);
+}
+
+.inforOrdersItemTitle{
+    font-size: 18px;
+    color: rgb(154, 154, 154);
+}
+
+.totalsItem{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.infoPorcentage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.Porcentage{
+    font-size:14px ;
+    color: #2BD439;
+}
+
+.iconContainerItemMissing{
+    width: 80px;
+    height:  80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7C891;
+    color: #F09229;
+    border-radius: 50%;
+}
+
+.iconMissing{
+    font-size:40px !important ;
+}
+
+.infoImportant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.important{
+    font-size: 14px;
+    color: #F09229;
+}
+
+.iconContainerMoped{
+    width: 80px;
+    height:  80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #66A2F4;
+    color: #0B4699;
+    border-radius: 50%;
+}
+
+.iconMoped{
+    font-size: 40px !important;
+}
+
+.delivered{
+    color:#0B4699 ;
+}
+
+.iconContainerCompleted{
+    width: 80px;
+    height:  80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7F0CC;
+    color: #2DA43D;
+    border-radius: 50%;
+}
+
+.iconCompleted{
+    font-size: 40px !important;
+}
+
+.completed{
+    color: #2DA43D;
+}
