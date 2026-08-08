@@ -17,7 +17,7 @@ export function WidgetSm({pedidos}:widgetProps){
             <div>Estado</div>
             <div></div>
         </header>
-        {pedidos.map((pedido)=>(
+        {pedidos.slice(0,5).map((pedido)=>(
             <article className='tabla-fila' key={pedido.id}>
                 <div className="orden">
                     {pedido.id}
@@ -32,8 +32,8 @@ export function WidgetSm({pedidos}:widgetProps){
                     {pedido.total}
                 </div>
                 <div>
-                    <span className={`badge ${pedido.claseEstado}`}>
-                        {pedido.claseEstado}
+                    <span className={`badge ${pedido.estado}`}>
+                        {pedido.estado}
                     </span>
                 </div>
             </article>

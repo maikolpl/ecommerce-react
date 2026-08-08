@@ -80,22 +80,22 @@
     transform: scale(0.98);
 }
 
-.completado{
+.Entregada{
     background-color: #e6f7ed;
     color: #26a269;
 }
 
-.proceso{
+.EnCamino{
     background-color: #e8f0fe;
     color: #3b71ca;
 }
 
-.pendiente{
+.Pendiente{
     background-color: #ffebee;
     color: #ef6c00;
 }
 
-.cancelado{
+.Cancelada{
     background-color: #ffebee;
     color: #c62828;
 }

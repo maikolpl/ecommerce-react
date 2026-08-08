@@ -1,0 +1,94 @@
+.assistenceCenter{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    background-color: #FCC6BB;
+    border-radius: 10px;
+    box-shadow: 1px 3px 15px 8px #f6ddd8;
+}
+
+.assistenceCenter:hover{
+    letter-spacing: 2px;
+    box-shadow: 1px 3px 15px 8px #f3ccc4;
+}
+.assistenceCenter:active{
+    transform: scale(0.98)
+}
+
+.assitenceCenterIconContainer{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#F87C63;
+    color: #F4320B;
+    margin:30px;
+
+}
+
+.assistenceContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.iconAlert{
+    font-size: 40px!important;
+}
+
+.assistenceTitle{
+    font-size: 30px;
+    color: #F2900F;
+}
+
+.assistenceContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.assisteneceItem{
+    border-right: 2px solid rgb(69, 69, 69);
+    margin: 10px;
+}
+
+.alertItemContainer{
+    display: flex;
+    align-items: center;
+}
+
+.circleErrorAlert{
+    color: #F4320B;
+    font-size: 30px !important;
+    margin-right: 10px;
+}
+
+.alertItem{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.completAlerContainer{
+    display: flex;
+    align-items: center;
+}
+
+.completAlerContainer:hover{
+    cursor: pointer;
+}
+
+.completAlert{
+    color: #F4320B;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.IconCompletAlert{
+    color: #F4320B;
+    font-size: 30px !important;
+}
+
